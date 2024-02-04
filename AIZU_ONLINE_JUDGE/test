@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+C[N][N] = {0}
+int solve(int a,int b,int A,int B){
+    if(a + b == A + B){
+        return 1;
+    }
+    if(a != A){
+        if()
+        solve(a+1,b,A,B);
+    }else{
+        solve(a,b+1,A,B);
+    }
+}
